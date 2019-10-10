@@ -1,0 +1,7 @@
+{
+    "subject":"Para si {{name}} - E-mail pelo SendGrid com Scriban",
+    "addresses" :[
+        {"email": "EMAIL-COUNT1, "name":"NAME1"},
+        {"email": "EMAIL-COUNT2", "name":"NAME2"}
+    ]
+}

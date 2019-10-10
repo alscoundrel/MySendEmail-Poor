@@ -1,8 +1,9 @@
 # MySendEmail-Poor
  Sem linha de Comandos
 
+<b>Altere os próximos dois ficheiros para um bom funcionamento da app</b><br>
 # definições de acesso ao SendGrid e conta de origem
-<b>Ficheiro appsettings.json</b><br>
+<b>Ficheiro <i>appsettings.json</i></b><br>
 {<br>
     "SendGrid": {<br>
         "apiKey": "YOU-API",<br>
@@ -13,7 +14,7 @@
 Alterar para as suas chaves e dados<br>
 
 # dados para usar no modelo e envio
-<b>Ficheiro sendvalues.json</b><br>
+<b>Ficheiro <i>sendvalues.json</i></b><br>
 {<br>
     "subject":"Para si {{name}} - E-mail pelo SendGrid com Scriban",<br>
     "addresses" :[<br>
